@@ -58,6 +58,14 @@ ros2 run mypkg talker
 
 ---
 
+## 動作環境
+
+- OS: Ubuntu 24.04
+- ROS 2: Humble Hawksbill
+- Python: 3.12
+
+---
+
 ## 著作権・ライセンス
 Copyright (c) 2025 Keita Arakawa  
 This software is released under the BSD-3-Clause License.
