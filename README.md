@@ -54,8 +54,11 @@
 cd ~/ros2_ws
 source install/setup.bash
 ros2 run mypkg talker
+```
 
-##著作権・ライセンス
+---
+
+## 著作権・ライセンス
 Copyright (c) 2025 Keita Arakawa  
 This software is released under the BSD-3-Clause License.
 
