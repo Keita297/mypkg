@@ -2,7 +2,6 @@
 set -e
 
 source /opt/ros/jazzy/setup.bash
-source install/setup.bash
 
 # talker をバックグラウンド起動
 ros2 run mypkg talker &
