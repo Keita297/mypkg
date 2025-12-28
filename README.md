@@ -1,11 +1,9 @@
 # mypkg
 
 ## 概要
-本パッケージは、`countup` トピックに流れる整数値を監視し、
-その変化状態を `count_status` トピックとして出力する ROS 2 パッケージです。
+本パッケージは、`countup` トピックに流れる整数値を監視し、その変化状態を `count_status` トピックとして出力する ROS2パッケージです。
 
-値が増加しているか、停止しているか、減少しているかを判定することで、
-カウンタ系ノードの状態監視やデバッグ用途を想定しています。
+値が増加しているか、停止しているか、減少しているかを判定することで、カウンタ系ノードの状態監視やデバッグ用途を想定しています。
 
 ---
 
@@ -57,8 +55,11 @@ cd ~/ros2_ws
 source install/setup.bash
 ros2 run mypkg talker
 
-端末②：
-```bash
-cd ~/ros2_ws
-source install/setup.bash
-ros2 run mypkg monitor
+##著作権・ライセンス
+Copyright (c) 2025 Keita Arakawa  
+This software is released under the BSD-3-Clause License.
+
+---
+
+## 製作者　
+荒川佳汰
