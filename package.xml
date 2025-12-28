@@ -3,7 +3,7 @@
 <package format="3">
   <name>mypkg</name>
   <version>0.0.0</version>
-  <description>ロボットシステム学のやつ</description>
+  <description>ROS 2のInt16トピックを監視し、数値の変化を解析する学習・デバッグ用パッケージ</description>
   <maintainer email="kei86291234@icloud.com">keita</maintainer>
   <license>BSD-3-Clause</license>
   <exec_depend>rclpy</exec_depend>
