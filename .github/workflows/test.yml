@@ -12,6 +12,7 @@ jobs:
         cd /root/ros2_ws
         colcon build
     - name: run test
+      shell: bash
       run: |
         source /opt/ros/jazzy/setup.bash
         cd /root/ros2_ws
