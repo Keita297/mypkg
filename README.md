@@ -47,6 +47,12 @@ cd ~/ros2_ws
 source install/setup.bash
 ros2 run mypkg talker
 ```
+端末2：
+```bash
+ros2 run mypkg monitor
+[INFO] [count_monitor]: count=10, status=start
+[INFO] [count_monitor]: count=11, status=increasing
+```
 
 ---
 
