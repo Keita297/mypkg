@@ -1,5 +1,5 @@
 #SPDX-FileCopyrightText: 2025 Keita Arakawa <kei86291234@icloud.com>
-#SPDX-License-Identifier: BSD-3-Clause:
+#SPDX-License-Identifier: BSD-3-Clause
 
 import rclpy
 from rclpy.node import Node
