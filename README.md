@@ -1,9 +1,8 @@
 # mypkg
 
 ## 概要
-本パッケージは、`countup` トピックに流れる整数値を監視し、その変化状態を `count_status` トピックとして出力する ROS2パッケージです。
-`monitor` ノードは、整数値が流れる `countup` トピックを入力として受け取り、
-値が増加・停止・減少のいずれであるかを判定します。
+本パッケージは、変化状態を `count_status` トピックとして出力する ROS2パッケージです。
+`monitor` ノードは、値が増加・停止・減少のいずれであるかを判定します。
 カウンタ系ノードの状態確認やデバッグ用途を想定しています。
 
 ---
@@ -11,8 +10,7 @@
 ## ノード一覧
 
 ### monitor
-`countup` トピックを購読し、値の変化に応じた状態を
-`count_status` トピックとして publish します。
+値の変化に応じた状態を`count_status` トピックとして publish します。
 
 - **購読**
   - `/countup` (`std_msgs/Int16`)
@@ -35,7 +33,7 @@
 `countup` トピックに整数値を一定周期で publish するサンプルノードです。
 
 - **発行**
-  - `/countup` (`std_msgs/Int16`)
+  - `/countup` (`std_msgs/msg/Int16`)
 
 ---
 
@@ -45,15 +43,13 @@
 
 端末①：
 ```bash
-cd ~/ros2_ws
-source install/setup.bash
 ros2 run mypkg talker
 ```
 端末2：
 ```bash
-ros2 run mypkg monitor
-[INFO] [count_monitor]: count=10, status=start
-[INFO] [count_monitor]: count=11, status=increasing
+ros2 topic echo /count_status
+data: "start"
+data: "increasing"
 ```
 
 ---
