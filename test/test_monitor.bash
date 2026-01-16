@@ -1,6 +1,6 @@
 #!/bin/bash
-#SPDX-FileCopyrightText: 2025 Keita Arakawa <kei86291234@icloud.com>
-#SPDX-License-Identifier: BSD-3-Clause
+# SPDX-FileCopyrightText: 2025 Keita Arakawa <kei86291234@icloud.com>
+# SPDX-License-Identifier: BSD-3-Clause
 
 
 set -e
